@@ -2,7 +2,7 @@
   "name": "goit-react-hw-07-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MakhunArtom.github.io/goit-react-hw-07-phonebook.git",
+  "homepage": "https://MakhunArtom.github.io/goit-react-hw-07-phonebook/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
