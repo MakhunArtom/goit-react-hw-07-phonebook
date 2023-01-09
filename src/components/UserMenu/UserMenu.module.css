@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .text {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .username {
+    color: mediumblue;
+    text-decoration-line: underline;
+  }
+
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 22px;
+    background-color:cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0;
+  }
+
+  .button:hover,
+  .button:focus {
+    background-color: #fff;
+    color: black;
+  }

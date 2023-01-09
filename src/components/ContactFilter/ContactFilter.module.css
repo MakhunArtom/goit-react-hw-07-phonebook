@@ -1,0 +1,33 @@
+.box {
+  border: 1px solid #2a363b;
+  border-radius: 26px;
+  padding: 10px 26px;
+  margin-bottom: 8px;
+}
+
+.form {
+  max-width: 320px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.input {
+  padding: 5px 14px;
+  border-radius: 14px;
+}
+
+.input:focus {
+  border: solid 2px mediumblue;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.text {
+  padding: 0 0 5px 10px;
+}

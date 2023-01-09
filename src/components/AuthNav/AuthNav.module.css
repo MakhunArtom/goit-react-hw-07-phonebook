@@ -1,0 +1,25 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 22px;
+  background-color: cadetblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.link:nth-child(1) {
+  margin-right: 10px;
+}
+.link:hover,
+.link:focus {
+  background-color: #fff;
+  color: black;
+}
+
+.link.active {
+  background-color: #fff;
+  color: black;
+}
+  

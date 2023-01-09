@@ -1,0 +1,103 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.label:first-child {
+  margin-bottom: 18px;
+}
+
+.input {
+  padding: 5px 14px;
+  border-radius: 14px;
+  max-width: 100%;
+}
+
+.input:focus {
+  border: solid 2px gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.input:first-child {
+  margin-bottom: 16px;
+}
+
+.button {
+  display: flex;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 22px;
+  background-color:dimgray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #fff;
+  color: black;
+}
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 0 5px 10px;
+  color: darkcyan;
+  margin: 0;
+  margin-right: auto;
+}
+
+.close {
+  display: flex;
+  max-width: max-content;
+  justify-content: flex-end;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: auto;
+  padding: 0px 0px 10px 10px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close.focus {
+  color: red;
+}

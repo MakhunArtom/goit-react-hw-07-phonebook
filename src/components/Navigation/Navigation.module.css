@@ -1,0 +1,33 @@
+.link {
+  display: inline-block;
+  align-items: initial;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 22px;
+  background-color: cadetblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 425px) {
+  .link:nth-child(1) {
+    margin-bottom: 6px;
+  }
+}
+  
+
+
+.link:nth-child(1) {
+  margin-right: 10px;
+}
+.link:hover,
+.link:focus {
+  background-color: #fff;
+  color: black;
+}
+
+.link.active {
+  background-color: #fff;
+  color: black;
+}

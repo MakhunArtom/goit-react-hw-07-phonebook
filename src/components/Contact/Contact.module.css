@@ -1,0 +1,55 @@
+.wrapper {
+  max-width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 22px;
+  margin-bottom: 8px;
+}
+
+.wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.text {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .text {
+    width: 320px;
+  }
+}
+
+.text::before {
+  content: '\1F4DE'' ';
+}
+
+.button {
+  display: flex;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 22px;
+  background-color: darkseagreen;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0;
+  margin-left: auto;
+}
+
+.button:last-child {
+  margin-left: 0;
+  background-color: darksalmon;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #fff;
+  color: black;
+}
